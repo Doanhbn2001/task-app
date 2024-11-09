@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href=/my-app/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:todo-task": "node dist/todo-task/server/server.mjs"
